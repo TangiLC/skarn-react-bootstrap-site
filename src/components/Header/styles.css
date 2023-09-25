@@ -1,0 +1,17 @@
+ .skarn-logo{
+    height:3rem;
+    width:auto;
+ }
+ .nav-link, .nav-link:visited  {
+    display: inline-block;
+    padding: 13px 6px 13px 6px;
+    font-family: "Bebas Neue";
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: rgba(255, 221, 148,1);
+  }
+  
+  .nav-link:hover {
+    background-color: #302E2E;
+    border-bottom: 3px solid rgba(255, 221, 148,1);
+  }

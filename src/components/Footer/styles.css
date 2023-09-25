@@ -1,0 +1,9 @@
+.social-logo >a, .social-logo >a:visited {
+    color:white;
+    font-size: 1.3rem;
+}
+
+.footer-item{
+    display:inline;
+    vertical-align:baseline ;
+}

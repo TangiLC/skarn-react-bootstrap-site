@@ -1,1 +1,4 @@
-export function ContactPage(){}
+function ContactPage() {
+	return <></>;
+}
+export default ContactPage;
