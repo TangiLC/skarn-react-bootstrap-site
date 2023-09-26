@@ -48,23 +48,23 @@ function Footer() {
 				</div>
 				<div className="col-12 col-md-4">
 					<div className="row">
-						<div className="col-2"></div>
-						<div className="col-3 pt-4 pb-4 social-logo">
+						
+						<div className="col pt-4 pb-4 social-logo">
 							<a target="_blank" href={social.insta} alt="instagram" rel="noreferrer">
 								<BsInstagram />
 							</a>
 						</div>
-						<div className="col-3 pt-4 pb-4 social-logo">
+						<div className="col pt-4 pb-4 social-logo">
 							<a target="_blank" href={social.facebook} alt="facebook" rel="noreferrer">
 								<BsFacebook />
 							</a>
 						</div>
-						<div className="col-3 pt-4 pb-4 social-logo">
+						<div className="col pt-4 pb-4 social-logo">
 							<a target="_blank" href={social.ggmap} alt="localisation" rel="noreferrer">
 								<BsGeoAltFill />
 							</a>
 						</div>
-						<div className="col-1"></div>
+						
 					</div>
 				</div>
 			</div>

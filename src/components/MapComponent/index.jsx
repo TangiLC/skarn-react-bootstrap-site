@@ -11,14 +11,12 @@ const defaultProps = {
 
 function MapComponent() {
 	return (
-		<div className="w-100 row">
-			<div className="col" style={{ height: "45dvh", maxHeight:"500px", width: "100%" }}>
-				<GoogleMapReact
-					bootstrapURLKeys={{ key: "" }}
-					defaultCenter={defaultProps.center}
-					defaultZoom={defaultProps.zoom}
-				/>
-			</div>
+		<div className="col" style={{ height: "45dvh", maxHeight: "500px", width: "95%" }}>
+			<GoogleMapReact
+				bootstrapURLKeys={{ key: "" }}
+				defaultCenter={defaultProps.center}
+				defaultZoom={defaultProps.zoom}
+			/>
 		</div>
 	);
 }

@@ -17,11 +17,11 @@ function HomePage() {
 							<h1>SKARN</h1>
 						</div>
 						<div>
-							<h2>Développement Informatique - site web et mobile</h2>
+							<h2>Développement Informatique -<br/> site web et mobile</h2>
 						</div>
 						<ContactButton/>
 					</div>
-					<div className="col-12 col-md-4 mx-auto">
+					<div className="col-12 col-md-4 mx-auto text-center mt-3 mt-md-0">
 						<img className="logo-homepage" src={Logo512} alt="studio Skarn" />
 					</div>
 				</div>

@@ -14,7 +14,7 @@ function SkarnCarousel(props) {
 			className="col-12 col-md-3"
 		>
 			{props.content.map((item, index) => (
-				<Carousel.Item key={`${props.key}${index}`}>
+				<Carousel.Item key={`${props.keyid}${index}`}>
 					<a href={item.url}>
 						<img src={item.image} alt={item.alt} className="carousel-img" title={item.alt}/>
 					</a>

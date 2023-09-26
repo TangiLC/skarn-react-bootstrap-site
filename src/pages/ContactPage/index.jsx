@@ -13,8 +13,8 @@ function ContactPage() {
 			<div className="row">
 				<div className="col-12 col-md-6 my-auto">
 					<div className="row mx-auto">
-						<div className="col-0 col-md-7">&nbsp;</div>
-						<div className="col-12 col-md-5 margeG text-center text-md-start px-4">
+						<div className="d-none d-md-inline col-sm-2 col-md-6">&nbsp;</div>
+						<div className="col-12 col-sm-10 col-md-6 margeG text-center text-md-start mx-auto">
 							<h1>NOS&nbsp;COORDONNÉES</h1>
 							<h2>SKARN</h2>
 							5 ch de Frayère
@@ -29,7 +29,7 @@ function ContactPage() {
 						</div>
 					</div>
 				</div>
-				<div className="col-12 col-md-6">
+				<div className="col-12 col-md-6 p-0">
 					<div className="row mx-auto">
 						<MapComponent />
 					</div>
