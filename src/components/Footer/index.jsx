@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import { BsInstagram, BsFacebook, BsGeoAltFill } from "react-icons/bs";
-import { Conf } from "../Confidential";
+import { Conf } from "../../const/politiqueConfidentialite";
+import {social}   from "../../const/social";
+
 
 import "./styles.css";
 
@@ -48,17 +50,17 @@ function Footer() {
 					<div className="row">
 						<div className="col-2"></div>
 						<div className="col-3 pt-4 pb-4 social-logo">
-							<a target="_blank" href="https://www.instagram.com/" alt="instagram" rel="noreferrer">
+							<a target="_blank" href={social.insta} alt="instagram" rel="noreferrer">
 								<BsInstagram />
 							</a>
 						</div>
 						<div className="col-3 pt-4 pb-4 social-logo">
-							<a target="_blank" href="https://www.facebook.com/" alt="facebook" rel="noreferrer">
+							<a target="_blank" href={social.facebook} alt="facebook" rel="noreferrer">
 								<BsFacebook />
 							</a>
 						</div>
 						<div className="col-3 pt-4 pb-4 social-logo">
-							<a target="_blank" href="https://bit.ly/3Fam8Bf" alt="localisation" rel="noreferrer">
+							<a target="_blank" href={social.ggmap} alt="localisation" rel="noreferrer">
 								<BsGeoAltFill />
 							</a>
 						</div>

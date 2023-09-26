@@ -1,7 +1,10 @@
 import "./styles.css";
+import ContactButton from "../../components/ContactButton";
 import Activites from "../../components/Activites";
-import SavoirFaire from "../../components/SavoirFaire";
+import InfoSection from "../../components/InfoSection";
 import Confiance from "../../components/Confiance";
+
+import { content } from "../../const/savoirFaire.js";
 import Logo512 from "../../assets/skarn_logo512.png";
 
 function HomePage() {
@@ -16,11 +19,7 @@ function HomePage() {
 						<div>
 							<h2>Développement Informatique - site web et mobile</h2>
 						</div>
-						<div>
-							<a href="mailto:skarn@skarn.fr" alt="contact mail" className="btn btn-dark contact_button">
-								CONTACTEZ-NOUS
-							</a>
-						</div>
+						<ContactButton/>
 					</div>
 					<div className="col-12 col-md-4 mx-auto">
 						<img className="logo-homepage" src={Logo512} alt="studio Skarn" />
@@ -29,7 +28,7 @@ function HomePage() {
 			</div>
 
 			<Activites />
-			<SavoirFaire />
+			<InfoSection title="NOTRE SAVOIR-FAIRE" content={content} />
 			<Confiance />
 			<br/>
 		</>

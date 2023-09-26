@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import SkarnCarousel from "./Carousel";
-import { content } from "./content.js";
+import { content } from "../../const/listeConfiance.js";
 
 const decalArray = (array, nb) => {
 	const start = array.slice(nb);

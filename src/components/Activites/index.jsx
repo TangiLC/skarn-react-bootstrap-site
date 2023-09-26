@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import { content } from "./content.js";
+import { content } from "../../const/activites.js";
 
 const Activites = () => {
 	return (

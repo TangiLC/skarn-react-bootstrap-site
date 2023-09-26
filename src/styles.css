@@ -9,3 +9,27 @@
     font-weight: 200;
     text-align: center;
 }
+
+.grad-bg{
+    background: linear-gradient(180deg, #D0E6A5 0%, rgba(236, 225, 155, 0.993958) 57.29%, rgba(255, 221, 148, 0.99) 100%);
+    text-align: center;
+    margin:auto;
+}
+
+.margeG{
+    padding-left: 5px;
+    border-left-width : 5px;
+    border-left-style : solid;
+    border-left-color: rgb(236,225,155);
+    
+}
+
+.mailto, .mailto:visited{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+}
+
+.mailto:hover{
+    text-decoration: underline;
+}
