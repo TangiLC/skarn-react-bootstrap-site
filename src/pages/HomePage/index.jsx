@@ -31,6 +31,7 @@ function HomePage() {
 			<Activites />
 			<SavoirFaire />
 			<Confiance />
+			<br/>
 		</>
 	);
 }

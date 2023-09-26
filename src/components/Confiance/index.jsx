@@ -16,11 +16,11 @@ const Confiance = () => {
 		<div className="bg-light row confiance-container">
 			<div className="title-section my-3">ILS NOUS FONT CONFIANCE</div>
 			<div className="row width-80 justify-content-center grad-bg">
-				<div className="col"></div>
-				<SkarnCarousel content={content} />
-				<SkarnCarousel content={content1} />
-				<SkarnCarousel content={content2} />
-				<div className="col"></div>
+				<div className="col-0 col-md-1"></div>
+				<SkarnCarousel content={content} key="0"/>
+				<SkarnCarousel content={content1} key="1"/>
+				<SkarnCarousel content={content2} key="2"/>
+				<div className="col-0 col-md-1"></div>
 			</div>
 		</div>
 	);
