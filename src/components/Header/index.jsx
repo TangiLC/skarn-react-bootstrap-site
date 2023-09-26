@@ -11,8 +11,8 @@ function Header() {
 	const [isOpen, setOpen] = useState(false)
 
   return (
-    <Navbar collapseOnSelect expand="md" bg="dark"  onToggle={() => setOpen(!isOpen)}>
-      <Container>
+    <Navbar className="row" collapseOnSelect expand="md" bg="dark"  onToggle={() => setOpen(!isOpen)}>
+      
         <Navbar.Brand href="/"><img src={Logo} alt="Skarn Studio" className="skarn-logo"/></Navbar.Brand>
         <Navbar.Toggle>
           <Hamburger toggled={isOpen} toggle={setOpen} color="rgba(255, 221, 148,1)" rounded distance="md" />
@@ -23,7 +23,6 @@ function Header() {
             <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
   )
 }

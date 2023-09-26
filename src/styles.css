@@ -1,0 +1,11 @@
+.root{
+    margin:auto;
+}
+
+.title-section{
+    font-family: "Bebas Neue";
+    text-decoration: underline;
+    font-size:1.6rem;
+    font-weight: 200;
+    text-align: center;
+}

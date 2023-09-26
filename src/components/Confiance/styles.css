@@ -1,0 +1,13 @@
+.confiance-container {
+	margin: auto;
+    color: black;
+}
+
+.grad-bg{
+    background: linear-gradient(180deg, #D0E6A5 0%, rgba(236, 225, 155, 0.993958) 57.29%, rgba(255, 221, 148, 0.99) 100%);
+}
+
+.carousel-img{
+    width: 200px;
+    height:100px;
+}

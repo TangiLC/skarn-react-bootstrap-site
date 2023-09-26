@@ -1,0 +1,403 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size : 1em;
+    text-decoration : none;
+    
+    max-width : 1200px;
+    margin : 0 auto;
+}
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #302E2E;
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 5px;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  
+  .nav > .nav-links {
+    display: inline-block;
+    position: relative;
+    left : 10px;
+    bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 6px 13px 6px;
+    text-decoration: none;
+    color: rgba(255, 221, 148,1);
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: #302E2E;
+    border-bottom: 3px solid rgba(255, 221, 148,1);
+  }
+  
+  .nav > #nav-check {
+    height: 70px;
+    display: none;
+  }
+  
+
+.container{display:flex;
+    }
+
+.Rowcontainer{flex-direction: row;}
+
+.Colcontainer{flex-direction : column;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+
+p{
+    font-size : 1em;
+    text-decoration : none;
+    color : black;
+    margin-left: 1em;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom : 0px;
+}
+h2{
+    margin-top: 10px; margin-bottom: 2px; margin-left: 0;
+    font-size: 1em;
+    font-weight: 600;
+}
+h3{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 20px; margin-bottom: 05px; margin-left: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+a{
+    text-decoration :none ;
+    color: black;
+}
+
+em{
+    font-style: normal;
+    font-weight: 600;
+}
+
+header{
+    justify-content: left;
+    background : #302E2E;
+    font-family : "Bebas Neue", sans-serif;
+}
+
+.bandeauH{
+    flex-direction: row;
+    color : rgba(255, 221, 148,1);
+    padding-top : 15px;
+    
+}
+
+.nav_button{
+    color : rgba(255, 221, 148,1);
+    text-decoration: none;
+    margin-top: 42px; margin-left: 42px; margin-right: 42px;
+}
+
+.nav_button:hover{
+    border-bottom: 1px solid rgba(255, 221, 148,1);
+    color : rgba(255, 221, 148,0.4);
+}
+
+.bandeauT{
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top : 40px; margin-bottom : 20px;
+    background-color: white;
+    gap: 3%;
+}
+
+.TitreD{
+    margin-left:40px;
+}
+
+.bandeauM{
+    display : flex;
+    justify-content: center;
+    font-family : "Bebas+Neue", sans-serif;
+    text-decoration: none;
+    
+    background: linear-gradient(180deg, #D0E6A5 0%, rgba(236, 225, 155, 0.993958) 57.29%, rgba(255, 221, 148, 0.99) 100%);
+    width : 100%;
+    padding-top : 20px;
+    margin : auto;
+}
+.grilleM{
+    display: inline-grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(80px, auto);
+}
+
+.contact_button{
+    width : 220px;
+    background-color: #302E2E;
+    padding-top: 8px;  padding-bottom: 8px;
+    font-family : "Bebas Neue", sans-serif;
+    font-weight : 200;
+    text-decoration :none ;
+    color : white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.coordonnees{
+   flex-direction:row;
+    justify-content: right;
+}
+.colonneG{  
+    flex-direction: column;
+    text-decoration :none ;
+    margin-right : 30px;
+}
+.MargeG{
+    padding-left: 5px;
+    border-left-width : 3px;
+    border-left-style : solid;
+    border-left-color: rgb(236,225,155);
+    padding-left: 5px;
+}
+.localis-map{
+    max-width:600px auto;
+    height:600px;
+    border:0;}
+
+.TitreCentre{
+    text-align: center;
+    flex-direction: column;
+    font-family : "Bebas Neue", sans-serif;
+    color: black;
+    
+}
+.BlocCentre{
+    width : 90%;
+    margin : auto;
+    margin-top : 20px;
+    margin-bottom : 30px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.souligne{
+    text-decoration: underline rgb(236,225,155);}
+
+.Activite{
+    display : flex;
+    flex-direction: column;
+    width : 100%;
+    margin : auto;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    background-color: #302E2E;
+    color : white;
+}
+.TitreActivite{
+    text-decoration: underline white;
+    color : white;
+    padding : 10px;
+    margin:auto;
+}
+.BlocActivite{display : flex;
+flex-direction: row;
+justify-content:space-evenly;
+}
+.CarteActivite{
+    display:flex;
+    width : 250px;
+    padding : 15px;
+    flex-direction: column;}
+
+.CarteActivite >h3{padding-top: 5px;
+    padding-bottom: 20px;}
+
+.PictActivite{
+    height : 200px;
+    width: 250px;
+    object-fit:cover;
+    margin-top : 20px;
+}
+
+footer{
+    font-family : "Bebas+Neue", sans-serif;
+    margin-top : 20px;
+}
+
+.bigger{ font-size: 1.5em;}
+
+.square_around{
+    font-size : 1.4em;
+    padding-left: 6px;
+    padding-right : 2px; padding-top : 1px; padding-bottom : 0px;
+    border-radius: 2px;
+    border : 1px solid white;
+}
+.bandeauB{
+    display : flex;
+    
+    font-family : "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-size:small;
+    color:white;
+    background: black;
+    padding-top: 30px ; padding-bottom : 30px;
+    justify-content: space-between;
+}
+
+.Confiance_icon{
+    font-size: 3em;
+    color : black;
+    border : 1px solid grey;
+
+}
+
+.logo_footerG{
+    flex-direction: row;
+    justify-content: space-between;
+    padding : 20px;
+}
+.logo_footerD{
+    flex-direction: row;
+    justify-content: space-between;
+    padding : 20px;
+}
+
+.logo{
+    color:white;
+    padding: 5px;
+}
+.logo:hover{opacity: 0.7;}
+
+.mailto{display:inline-block;}
+
+.mailto:hover{
+    cursor: help;
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    body{margin : 0 auto;}
+    h1{text-align: center;}
+    h2{margin : 15px auto; text-align: center;}
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 0px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color : #302E2E;
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 99%;
+      background-color:  #302E2E;
+      height: 0px;
+      transition: all 0.25s ease-in;
+      top: 70px;
+      left: 0px;
+      border-bottom-right-radius: 12px ;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: auto;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+      visibility: collapse;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: 130px;
+    }
+    .bandeauT{
+        width : 90%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;      
+        background-color: white;}
+    .contact_button{margin: auto; margin-bottom : 20px;}
+    .TitreD{margin: auto;}
+    .Activite{
+        background-color: white;
+        color : black;
+    }
+    .BlocActivite{display : flex;
+        flex-direction: column;
+        margin:auto;
+        }
+
+    .TitreActivite{
+        text-decoration: underline rgb(236,225,155);
+        color : black;}
+    .coordonnees{
+        flex-direction:column;}
+    .colonneG{text-align: center;}
+    .colonneD{text-align: center;}
+    .MargeG{border:0;}
+    .localis-map{
+        width:375px;        
+        object-fit: cover;
+        margin-top : 20px;}
+    .BlocCentre{
+        width : 70%;
+        margin:auto;
+        padding: 15px;
+        text-align: left;
+    }
+    .logo_footerG{display : none;
+        visibility:collapse;}
+    .bandeauB{font-size:1em;
+        
+        justify-content: space-evenly;}
+
+    .grilleM{grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+        justify-content: center;}
+    
+
+  }

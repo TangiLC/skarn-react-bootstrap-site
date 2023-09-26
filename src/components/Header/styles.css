@@ -1,9 +1,26 @@
+ .navbar{
+  display: inline-flex;
+  width:100%;
+  text-align: left;
+  justify-content: flex-start;
+  margin:auto;
+  
+ }
+ 
+ .navbar-brand{
+  width:3.2rem;
+ }
+
+ .navbar-toggler{
+  width:4rem;
+ }
  .skarn-logo{
-    height:3rem;
-    width:auto;
+    width:3rem;
+    height:auto;
  }
  .nav-link, .nav-link:visited  {
     display: inline-block;
+    position:relative;
     padding: 13px 6px 13px 6px;
     font-family: "Bebas Neue";
     font-size: 1.7rem;
@@ -14,4 +31,8 @@
   .nav-link:hover {
     background-color: #302E2E;
     border-bottom: 3px solid rgba(255, 221, 148,1);
+  }
+
+  .navbar-nav{
+    width:30%;
   }

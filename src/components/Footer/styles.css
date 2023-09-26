@@ -1,3 +1,11 @@
+.footer-container{
+    font-family: "Bebas Neue";
+    font-size:1.2rem;
+    width:100%;
+    margin:auto;
+}
+
+
 .social-logo >a, .social-logo >a:visited {
     color:white;
     font-size: 1.3rem;
@@ -6,4 +14,5 @@
 .footer-item{
     display:inline;
     vertical-align:baseline ;
+    
 }

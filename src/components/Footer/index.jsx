@@ -28,36 +28,43 @@ function Footer() {
 	};
 	return (
 		<>
-			<div className="container-flex bg-dark row text-center">
-				<div className="col-1"></div>
-				<div className="col-2 pt-4 pb-4 text-white footer-item">©&nbsp;SKARN 2023</div>
+			<div className="container-flex bg-dark row text-center footer-container text-center">
+				<div className="col-12 col-md-8">
+					<div className="row">
+						<div className="col-4 pt-4 pb-4 text-white footer-item">©&nbsp;SKARN 2023</div>
 
-				<div className="col-2 pt-4 pb-4">
-					<a className="text-white text-decoration-none footer-item" href="/contact">
-						CONTACT
-					</a>
-				</div>
+						<div className="col-4 pt-4 pb-4">
+							<a className="text-white text-decoration-none footer-item" href="/contact">
+								CONTACT
+							</a>
+						</div>
 
-				<div className="col-3 pt-4 pb-4 text-white btn" type="button" onClick={openModal}>
-					POLITIQUE DE CONFIDENTIALITÉ
+						<div className="col-4 pt-4 pb-4 text-white btn" type="button" onClick={openModal}>
+							POLITIQUE DE CONFIDENTIALITÉ
+						</div>
+					</div>
 				</div>
-
-				<div className="col-1 pt-4 pb-4 social-logo">
-					<a target="_blank" href="https://www.instagram.com/" alt="instagram">
-						<BsInstagram />
-					</a>
+				<div className="col-12 col-md-4">
+					<div className="row">
+						<div className="col-2"></div>
+						<div className="col-3 pt-4 pb-4 social-logo">
+							<a target="_blank" href="https://www.instagram.com/" alt="instagram" rel="noreferrer">
+								<BsInstagram />
+							</a>
+						</div>
+						<div className="col-3 pt-4 pb-4 social-logo">
+							<a target="_blank" href="https://www.facebook.com/" alt="facebook" rel="noreferrer">
+								<BsFacebook />
+							</a>
+						</div>
+						<div className="col-3 pt-4 pb-4 social-logo">
+							<a target="_blank" href="https://bit.ly/3Fam8Bf" alt="localisation" rel="noreferrer">
+								<BsGeoAltFill />
+							</a>
+						</div>
+						<div className="col-1"></div>
+					</div>
 				</div>
-				<div className="col-1 pt-4 pb-4 social-logo">
-					<a target="_blank" href="https://www.facebook.com/" alt="facebook">
-						<BsFacebook />
-					</a>
-				</div>
-				<div className="col-1 pt-4 pb-4 social-logo">
-					<a target="_blank" href="https://bit.ly/3Fam8Bf" alt="localisation">
-						<BsGeoAltFill />
-					</a>
-				</div>
-				<div className="col-1"></div>
 			</div>
 			<Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={customStyles} contentLabel="Modal">
 				<div>{Conf.title}</div>
